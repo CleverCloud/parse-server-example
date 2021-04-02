@@ -22,7 +22,7 @@ clever env set CELLAR_BUCKET yourBucket
 clever env set SERVER_URL https://yourdomain.cleverapps.io/parse
 clever env set MASTER_KEY yourMasterKey
 clever env set JAVASCRIPT_KEY yourJSKey
-clever domain add yourdomain.cleverapps.io
+clever domain add yourdomain.cleverapps.io/parse
 clever deploy
 ```
 
