@@ -26,7 +26,7 @@ postgresqlURI = postgresqlURI.slice(0, 8) + postgresqlURI.slice(10, postgresqlUR
 
 var config = {
   databaseURI: postgresqlURI,
-  appId: process.env.APP_ID || 'APPLICATION_ID',
+  appId: process.env.PARSE_APP_ID || 'APPLICATION_ID',
   masterKey: process.env.MASTER_KEY || 'MASTER_KEY',
   appName: process.env.APP_NAME || "MyTest",
   cloud: process.env.CLOUD_FOLDER || "./cloud/main",
