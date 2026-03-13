@@ -1,12 +1,16 @@
 {
-  "name": "mytest",
-  "description": "parse-server for MyTest",
+  "name": "parse-server-example",
+  "description": "Parse Server example on Clever Cloud with PostgreSQL, Redis and S3 (Cellar)",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "4.17.1",
-    "parse": "2.19.0",
-    "parse-server": "4.5.0"
+    "express": "5.2.1",
+    "parse": "8.5.0",
+    "parse-server": "9.5.1",
+    "@parse/s3-files-adapter": "5.2.0"
+  },
+  "engines": {
+    "node": ">=24"
   }
 }
